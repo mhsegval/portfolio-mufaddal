@@ -94,13 +94,15 @@ const Gallery = () => {
     <div className="w-full max-w-8xl p-5 pb-10 mx-auto mb-10 gap-5 columns-2 md:columns-3 lg:columns-4">
         {data.map((item, index) => {
             return (
-                <Image
-                key={index}
-                alt="logo"
-                src={item.imgSrc}
-                className="py-1"
-                loading='lazy'
-            ></Image>
+                    <Image
+                    alt="logo"
+                    src={item.imgSrc}
+                    key={index}
+                    className="py-1"
+                    loading='lazy'
+                    data-modal-target="defaultModal" 
+                    data-modal-toggle="defaultModal"
+                    ></Image>
             )
         })}
     </div>

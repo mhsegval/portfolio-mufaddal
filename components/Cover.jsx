@@ -6,7 +6,7 @@ import {
     AiFillInstagram,
   } from "react-icons/ai";
   import Image from "next/image";
-  import deved from "../public/dev-ed-wave.png";
+  import deved from "../assets/gian.jpg";
 
 const Cover = () => {
   return (
