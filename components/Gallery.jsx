@@ -16,7 +16,6 @@ import img14 from '../public/gallery/14.jpeg'
 import img15 from '../public/gallery/15.jpeg'
 import img16 from '../public/gallery/16.jpeg'
 import Image from "next/image";
-import deved from "../public/dev-ed-wave.png";
 
 
 const Gallery = () => {
@@ -90,8 +89,8 @@ const Gallery = () => {
 
   return (
     <div>
-    <hr class="w-48 h-1 mx-auto my-4 bg-indigo-500 border-0 rounded md:my-10"></hr>
-    <h2 className='text-3xl text-center'>Gallery</h2>
+    <hr class="w-48 h-1 mx-auto my-4 bg-indigo-500 border-0 rounded md:my-10 dark:bg-pink-500"></hr>
+    <h2 className='text-3xl lg:text-5xl dark:text-white text-center'>Gallery</h2>
     <div className="w-full max-w-8xl p-5 pb-10 mx-auto mb-10 gap-5 columns-2 md:columns-3 lg:columns-4">
         {data.map((item, index) => {
             return (

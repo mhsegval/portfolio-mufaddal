@@ -3,20 +3,20 @@ import React from 'react'
 const Timeline = () => {
   return (
     <div className='py-10'>
-    <hr className="w-48 h-1 mx-auto my-4 bg-indigo-500 border-0 rounded md:my-10"></hr>
-    <h3 className="text-3xl py-1 mb-2 text-center md:text-4xl md:font-semibold">My Timeline</h3>
+    <hr className="w-48 h-1 mx-auto my-4 bg-indigo-500 border-0 rounded md:my-10 dark:bg-pink-500"></hr>
+    <h3 className="text-3xl lg:text-5xl dark:text-white text-center py-1 mb-2">My Timeline</h3>
 
     <ol className="relative border-l border-indigo-600 md:ml-5 lg:ml-12">
       <li className="mb-10 ml-4">
-        <div className="absolute w-3 h-3 bg-pink-600 rounded-full mt-1.5 -left-1.5 border border-indigo-600"></div>
-        <time className="mb-1 text-sm font-normal leading-none text-gray-500 md:text-lg md:mb-2">
+        <div className="absolute w-3 h-3 bg-pink-600 rounded-full mt-1.5 -left-1.5 border border-indigo-600 dark:border-white"></div>
+        <time className="mb-1 text-sm font-normal leading-none text-gray-500 md:text-lg md:mb-2 dark:text-gray-300">
           November 2022 - Present
         </time>
-        <h3 className='text-xl text-indigo-500 font-bold md:text-2xl'>Freshstone Brands Inc.</h3>
-        <h3 className="text-lg font-semibold text-gray-500 py-2 md:text-2xl">
+        <h3 className='text-xl text-indigo-500 font-bold md:text-2xl dark:text-pink-500'>Freshstone Brands Inc.</h3>
+        <h3 className="text-lg font-semibold text-gray-500 py-2 md:text-2xl dark:text-gray-300">
           Quality Assurance Technician
         </h3>
-            <ul className='mb-4 text-base font-normal text-gray-500 list-disc list-inside md:text-lg max-w-7xl'>
+            <ul className='mb-4 text-base font-normal text-gray-500 list-disc list-inside md:text-lg max-w-7xl dark:text-gray-300'>
                 <li>Participate actively in plant sanitation and perform
           pre-operational inspections on production lines.</li>
                 <li>Perform online product analysis, inspection and observation
@@ -33,15 +33,15 @@ const Timeline = () => {
             </ul>
       </li>
       <li className="mb-10 ml-4">
-        <div className="absolute w-3 h-3 bg-pink-600 rounded-full mt-1.5 -left-1.5 border border-white"></div>
-        <time className="mb-1 text-sm font-normal leading-none text-gray-500 md:text-lg md:mb-2">
+        <div className="absolute w-3 h-3 bg-pink-600 rounded-full mt-1.5 -left-1.5 border border-indigo-600 dark:border-white"></div>
+        <time className="mb-1 text-sm font-normal leading-none text-gray-500 md:text-lg md:mb-2 dark:text-gray-300">
           January 2022 - October 2022
         </time>
-        <h3 className='text-xl text-indigo-500 font-bold md:text-2xl'>Joriki Inc.</h3>
-        <h3 className="text-lg font-semibold text-gray-500 py-2 md:text-2xl">
+        <h3 className='text-xl text-indigo-500 font-bold md:text-2xl dark:text-pink-500'>Joriki Inc.</h3>
+        <h3 className="text-lg font-semibold text-gray-500 py-2 md:text-2xl dark:text-gray-300">
           Quality Assurance Technician
         </h3>
-        <ul className='mb-4 text-base font-normal text-gray-500 list-disc list-inside md:text-lg max-w-7xl'>
+        <ul className='mb-4 text-base font-normal text-gray-500 list-disc list-inside md:text-lg max-w-7xl dark:text-gray-300'>
             <li>Inspection of incoming raw material. Receiving Sugar
           concentrates and Oat base.</li>
             <li>Performing numerous tests for Oat base (pH, %TS, Gluten) and
@@ -53,15 +53,15 @@ const Timeline = () => {
         </ul>
       </li>
       <li className="ml-4">
-        <div className="absolute w-3 h-3 bg-pink-600 rounded-full mt-1.5 -left-1.5 border border-white"></div>
-        <time className="mb-1 text-sm font-normal leading-none text-gray-500 md:text-lg md:mb-2">
+        <div className="absolute w-3 h-3 bg-pink-600 rounded-full mt-1.5 -left-1.5 border border-indigo-600 dark:border-white"></div>
+        <time className="mb-1 text-sm font-normal leading-none text-gray-500 md:text-lg md:mb-2 dark:text-gray-300">
           September 2021 - December 2021
         </time>
-        <h3 className='text-xl text-indigo-500 font-bold md:text-2xl'>Gourmet Foods Inc.</h3>
-        <h3 className="text-lg font-semibold text-gray-500 py-2 md:text-2xl">
+        <h3 className='text-xl text-indigo-500 font-bold md:text-2xl dark:text-pink-500'>Gourmet Foods Inc.</h3>
+        <h3 className="text-lg font-semibold text-gray-500 py-2 md:text-2xl dark:text-gray-300">
           Quality Assurance Technician
         </h3>
-        <ul className='mb-4 text-base font-normal text-gray-500 list-disc list-inside md:text-lg max-w-7xl'>
+        <ul className='mb-4 text-base font-normal text-gray-500 list-disc list-inside md:text-lg max-w-7xl dark:text-gray-300'>
             <li>Participate actively in plant sanitation and perform
           pre-operational inspections on production lines.</li>
             <li>Perform online product analysis, inspection and observation
