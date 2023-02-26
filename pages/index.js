@@ -5,6 +5,8 @@ import Navbar from "@/components/Navbar";
 import Cover from "@/components/Cover";
 import Timeline from "@/components/Timeline";
 import Gallery from "@/components/Gallery";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +19,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white px-10">
+      <main className="bg-white px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <Navbar />
           <Cover />
@@ -27,6 +29,12 @@ export default function Home() {
         </section>
         <section>
           <Gallery />
+        </section>
+        <section>
+          <Contact />
+        </section>
+        <section>
+          <Footer />
         </section>
       </main>
     </>

@@ -92,7 +92,7 @@ const Gallery = () => {
     <div>
     <hr class="w-48 h-1 mx-auto my-4 bg-indigo-500 border-0 rounded md:my-10"></hr>
     <h2 className='text-3xl text-center'>Gallery</h2>
-    <div className="w-full max-w-5xl p-5 pb-10 mx-auto mb-10 gap-5 md:columns-3 columns-2">
+    <div className="w-full max-w-8xl p-5 pb-10 mx-auto mb-10 gap-5 columns-2 md:columns-3 lg:columns-4">
         {data.map((item, index) => {
             return (
                 <Image
@@ -100,6 +100,7 @@ const Gallery = () => {
                 alt="logo"
                 src={item.imgSrc}
                 className="py-1"
+                loading='lazy'
             ></Image>
             )
         })}
