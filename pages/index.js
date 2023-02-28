@@ -8,6 +8,7 @@ import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import { useState } from "react";
+import Carousel from "@/components/Carousal";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,17 +26,9 @@ export default function Home() {
         <section className="min-h-screen">
           <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
           <Cover />
-        </section>
-        <section>
           <Timeline />
-        </section>
-        <section>
-          <Gallery />
-        </section>
-        <section>
+          {/* <Gallery /> */}
           <Contact />
-        </section>
-        <section>
           <Footer />
         </section>
       </main>

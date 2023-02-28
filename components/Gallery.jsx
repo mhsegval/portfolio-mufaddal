@@ -100,8 +100,6 @@ const Gallery = () => {
                     key={index}
                     className="py-1"
                     loading='lazy'
-                    data-modal-target="defaultModal" 
-                    data-modal-toggle="defaultModal"
                     ></Image>
             )
         })}

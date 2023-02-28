@@ -1,7 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
+import Carousel from './Carousal'
+import {AiOutlineArrowDown} from 'react-icons/ai'
+import Gallery from './Gallery';
 
 const Timeline = () => {
+  const [isGalleryOpen, setIsGalleryOpen] = useState(false);
   return (
+    <div>
     <div className='py-10'>
     <hr className="w-48 h-1 mx-auto my-4 bg-indigo-500 border-0 rounded md:my-10 dark:bg-pink-500"></hr>
     <h3 className="text-3xl lg:text-5xl dark:text-white text-center py-1 mb-2">My Timeline</h3>
@@ -78,8 +83,27 @@ const Timeline = () => {
           at improving product quality throughout.</li>
         </ul>
       </li>
+      <li className="ml-4">
+        <div className="absolute w-3 h-3 bg-pink-600 rounded-full mt-1.5 -left-1.5 border border-indigo-600 dark:border-white"></div>
+        <time className="mb-1 text-sm font-normal leading-none text-gray-500 md:text-lg md:mb-2 dark:text-gray-300">
+          September
+        </time>
+        <h3 className='text-xl text-indigo-500 font-bold md:text-2xl dark:text-pink-500'>My journey in Canada</h3>
+        <h3 className="text-lg font-semibold text-gray-500 py-2 md:text-2xl dark:text-gray-300">
+        There has been a lot of Ups and Downs. We managed to somehow survive
+        </h3>
+        <ul className='mb-4 text-base font-normal text-gray-500 list-disc list-inside md:text-lg max-w-7xl dark:text-gray-300'>
+              <Carousel />
+              <button onClick={() => setIsGalleryOpen(!isGalleryOpen)} className="flex bg-transparent hover:bg-indigo-500 text-indigo-700 hover:text-white py-1 px-2 border border-indigo-500 hover:border-transparent rounded mx-auto dark:hover:bg-pink-500 dark:text-pink-500 dark:border-pink-500 dark:hover:text-white">
+                {isGalleryOpen ? "Show Less" : 'Show More'}
+              </button>
+        </ul>
+      </li>
     </ol>
   </div>
+  {isGalleryOpen ? <Gallery /> : ''}
+  </div>
+
   )
 }
 

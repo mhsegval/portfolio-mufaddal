@@ -21,11 +21,11 @@ const Cover = () => {
             </p>
           </div>
 
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-400 lg:text-6xl lg:gap-22 dark:text-white">
-            <AiFillTwitterCircle />
-            <AiFillLinkedin />
-            <AiFillInstagram/>
-            <AiFillFacebook />
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-400 lg:text-6xl lg:gap-22 dark:text-gray-300">
+           <a className='hover:text-gray-500 dark:hover:text-white' href="https://twitter.com/MufaddalMaterw1"><AiFillTwitterCircle/></a> 
+            <a className='hover:text-gray-500 dark:hover:text-white' href='http://linkedin.com/in/mufaddal-materwala-61889a188'><AiFillLinkedin /></a>
+            <a className='hover:text-gray-500 dark:hover:text-white' href="https://www.instagram.com/mufaddal_7860/"><AiFillInstagram/></a>
+            <a className='hover:text-gray-500 dark:hover:text-white' href="https://www.facebook.com/mufaddal.materwala"><AiFillFacebook /></a>
           </div>
 
           <div className="relative mx-auto bg-gradient-to-b from-indigo-500 rounded-full w-80 h-80 mt-10 overflow-hidden lg:w-100 lg:h-100 dark:from-pink-500">
