@@ -86,12 +86,13 @@ const Timeline = () => {
       <li className="ml-4">
         <div className="absolute w-3 h-3 bg-pink-600 rounded-full mt-1.5 -left-1.5 border border-indigo-600 dark:border-white"></div>
         <time className="mb-1 text-sm font-normal leading-none text-gray-500 md:text-lg md:mb-2 dark:text-gray-300">
-          September
+          Beginning of a new life!
         </time>
         <h3 className='text-xl text-indigo-500 font-bold md:text-2xl dark:text-pink-500'>My journey in Canada</h3>
-        <h3 className="text-lg font-semibold text-gray-500 py-2 md:text-2xl dark:text-gray-300">
-        There has been a lot of Ups and Downs. We managed to somehow survive
-        </h3>
+        <p className="text-lg text-gray-500 py-2 dark:text-gray-300">
+        In the winter of 2020, I came to Canada as a student with the determination and passion to achieve great things. After a lot of hard work and many sleepless nights, I finally achieved my college degree! I am thankful to my parents who have always supported me, believed in me. I was fortunate to have wonderful Mentors and Seniors. Canada is a wonderful country where I was able to follow my heart. I{`'`}m thrilled that my professional background allows me to contribute to the development of this country, and I{`'`}m proud of how far I{`'`}ve come personally in the previous few years. 
+        <span className='text-indigo-600 dark:text-pink-500'> Here you go, A small glace to my wonderful journey...</span>
+        </p>
         <ul className='mb-4 text-base font-normal text-gray-500 list-disc list-inside md:text-lg max-w-7xl dark:text-gray-300'>
               <Carousel />
               <button onClick={() => setIsGalleryOpen(!isGalleryOpen)} className="flex bg-transparent hover:bg-indigo-500 text-indigo-700 hover:text-white py-1 px-2 border border-indigo-500 hover:border-transparent rounded mx-auto dark:hover:bg-pink-500 dark:text-pink-500 dark:border-pink-500 dark:hover:text-white">

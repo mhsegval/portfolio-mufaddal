@@ -10,65 +10,6 @@ import img7 from '../public/gallery/7.jpg'
 import img8 from '../public/gallery/8.jpeg'
 import img9 from '../public/gallery/9.jpeg'
 import img10 from '../public/gallery/10.jpeg'
-import img11 from '../public/gallery/11.jpeg'
-import img12 from '../public/gallery/12.jpeg'
-import img13 from '../public/gallery/13.jpeg'
-import img14 from '../public/gallery/14.jpeg'
-import img15 from '../public/gallery/15.jpeg'
-import img16 from '../public/gallery/16.jpeg'
-
-// Data
-
-// const data = 
-// {
-//     "resources": [
-//       {
-//         "title": "Find me on Twitter",
-//         "link": "https://twitter.com/kendalmintcode",
-//         "imageUrl": img1
-//       },
-//       {
-//         "title": "Welcome to Ark Labs",
-//         "link": "https://ark-labs.co.uk",
-//         "imageUrl": img2
-//       },
-//       {
-//         "title": "Some sort of third title",
-//         "link": "https://twitter.com/kendalmintcode",
-//         "imageUrl": img3
-//       },
-//       {
-//         "title": "A personal site perhaps?",
-//         "link": "https://robkendal.co.uk",
-//         "imageUrl": img4
-//       },
-//       {
-//         "title": "Super item number five",
-//         "link": "https://twitter.com/kendalmintcode",
-//         "imageUrl": img5
-//       },
-//       {
-//         "title": "Super item number six",
-//         "link": "https://twitter.com/kendalmintcode",
-//         "imageUrl": img6
-//       },
-//       {
-//         "title": "Super item number seven",
-//         "link": "https://twitter.com/kendalmintcode",
-//         "imageUrl": img7
-//       },
-//       {
-//         "title": "Super item number eight",
-//         "link": "https://twitter.com/kendalmintcode",
-//         "imageUrl": img8
-//       },
-//       {
-//         "title": "Super item number the last",
-//         "link": "https://twitter.com/kendalmintcode",
-//         "imageUrl": img9
-//       }
-//     ]
-//   };
 
 const data = [
     {
@@ -110,31 +51,7 @@ const data = [
     {
         id: 10,
         imgSrc : img10
-    },
-    {
-        id: 11,
-        imgSrc : img11
-    },
-    {
-        id: 12,
-        imgSrc : img12
-    },
-    {
-        id: 13,
-        imgSrc : img13
-    },
-    {
-        id: 14,
-        imgSrc : img14
-    },
-    {
-        id: 15,
-        imgSrc : img15
-    },
-    {
-        id: 16,
-        imgSrc : img16
-    },
+    }
 ];
 
 const Carousel = () => {
