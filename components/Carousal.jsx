@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import img1 from '../public/gallery1/1.jpg'
-import img2 from '../public/gallery1/2.jpg'
+import img2 from '../public/gallery1/2.JPG'
 import img3 from '../public/gallery1/3.jpg'
 import img4 from '../public/gallery1/4.jpg'
 import img5 from '../public/gallery1/5.jpg'
