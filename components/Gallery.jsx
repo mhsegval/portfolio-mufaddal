@@ -7,7 +7,6 @@ import img5 from '../public/gallery/5.jpeg'
 import img6 from '../public/gallery/6.jpeg'
 import img7 from '../public/gallery/7.jpg'
 import img8 from '../public/gallery/8.jpeg'
-import img9 from '../public/gallery/9.JPG'
 import img10 from '../public/gallery/10.jpg'
 import img11 from '../public/gallery/11.jpeg'
 import img12 from '../public/gallery/12.jpeg'
@@ -54,10 +53,6 @@ const Gallery = () => {
         {
             id: 8,
             imgSrc : img8
-        },
-        {
-            id: 9,
-            imgSrc : img9
         },
         {
             id: 10,
