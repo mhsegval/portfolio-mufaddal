@@ -1,15 +1,15 @@
 import { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
-import img1 from '../public/gallery/1.jpeg'
-import img2 from '../public/gallery/2.jpg'
-import img3 from '../public/gallery/3.jpeg'
-import img4 from '../public/gallery/4.jpeg'
-import img5 from '../public/gallery/5.jpeg'
-import img6 from '../public/gallery/6.jpeg'
-import img7 from '../public/gallery/7.jpg'
-import img8 from '../public/gallery/8.jpeg'
-import img9 from '../public/gallery/9.jpeg'
-import img10 from '../public/gallery/10.jpeg'
+import img1 from '../public/gallery1/1.jpg'
+import img2 from '../public/gallery1/2.jpg'
+import img3 from '../public/gallery1/3.jpg'
+import img4 from '../public/gallery1/4.jpg'
+import img5 from '../public/gallery1/5.jpg'
+import img6 from '../public/gallery1/6.jpg'
+import img7 from '../public/gallery1/7.jpg'
+import img8 from '../public/gallery1/8.jpg'
+import img9 from '../public/gallery1/9.jpg'
+import img10 from '../public/gallery1/10.jpg'
 
 const data = [
     {

@@ -5,9 +5,8 @@ import {
     AiFillLinkedin,
     AiFillInstagram,
   } from "react-icons/ai";
-import {BsEmojiSunglasses}  from 'react-icons/bs'
   import Image from "next/image";
-  import deved from "../assets/cover.png";
+  import deved from "../public/cover.png";
 
 const Cover = () => {
 

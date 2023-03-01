@@ -1,20 +1,22 @@
 import React from 'react'
-import img1 from '../public/gallery/1.jpeg'
+import img1 from '../public/gallery/1.jpg'
 import img2 from '../public/gallery/2.jpg'
-import img3 from '../public/gallery/3.jpeg'
-import img4 from '../public/gallery/4.jpeg'
+import img3 from '../public/gallery/3.jpg'
+import img4 from '../public/gallery/4.jpg'
 import img5 from '../public/gallery/5.jpeg'
 import img6 from '../public/gallery/6.jpeg'
 import img7 from '../public/gallery/7.jpg'
 import img8 from '../public/gallery/8.jpeg'
-import img9 from '../public/gallery/9.jpeg'
-import img10 from '../public/gallery/10.jpeg'
+import img9 from '../public/gallery/9.jpg'
+import img10 from '../public/gallery/10.jpg'
 import img11 from '../public/gallery/11.jpeg'
 import img12 from '../public/gallery/12.jpeg'
 import img13 from '../public/gallery/13.jpeg'
-import img14 from '../public/gallery/14.jpeg'
+import img14 from '../public/gallery/14.jpg'
 import img15 from '../public/gallery/15.jpeg'
-import img16 from '../public/gallery/16.jpeg'
+import img16 from '../public/gallery/16.jpg'
+import img17 from '../public/gallery/17.jpg'
+import img18 from '../public/gallery/18.jpg'
 import Image from "next/image";
 
 
@@ -84,6 +86,14 @@ const Gallery = () => {
         {
             id: 16,
             imgSrc : img16
+        },
+        {
+            id: 17,
+            imgSrc : img17
+        },        
+        {
+            id: 18,
+            imgSrc : img18
         },
     ];
 

@@ -17,7 +17,7 @@ const Timeline = () => {
         <time className="mb-1 text-sm font-normal leading-none text-gray-500 md:text-lg md:mb-2 dark:text-gray-300">
           November 2022 - Present
         </time>
-        <h3 className='text-xl text-indigo-500 font-bold md:text-2xl dark:text-pink-500'>Freshstone Brands Inc.</h3>
+        <h3 className='text-xl text-indigo-500 font-bold md:text-2xl dark:text-pink-500'> <a target='_blank' href="https://www.freshstonebrands.com/">Freshstone Brands Inc.</a> </h3>
         <h3 className="text-lg font-semibold text-gray-500 py-2 md:text-2xl dark:text-gray-300">
           Quality Assurance Technician
         </h3>
@@ -42,7 +42,7 @@ const Timeline = () => {
         <time className="mb-1 text-sm font-normal leading-none text-gray-500 md:text-lg md:mb-2 dark:text-gray-300">
           January 2022 - October 2022
         </time>
-        <h3 className='text-xl text-indigo-500 font-bold md:text-2xl dark:text-pink-500'>Joriki Inc.</h3>
+        <h3 className='text-xl text-indigo-500 font-bold md:text-2xl dark:text-pink-500'><a target='_blank' href="https://www.jorikiinc.com/">Joriki Inc.</a></h3>
         <h3 className="text-lg font-semibold text-gray-500 py-2 md:text-2xl dark:text-gray-300">
           Quality Assurance Technician
         </h3>
@@ -62,7 +62,7 @@ const Timeline = () => {
         <time className="mb-1 text-sm font-normal leading-none text-gray-500 md:text-lg md:mb-2 dark:text-gray-300">
           September 2021 - December 2021
         </time>
-        <h3 className='text-xl text-indigo-500 font-bold md:text-2xl dark:text-pink-500'>Gourmet Foods Inc.</h3>
+        <h3 className='text-xl text-indigo-500 font-bold md:text-2xl dark:text-pink-500'><a target='_blank' href="http://signatureculinarysolutions.com/">Gourmet Foods Inc.</a></h3>
         <h3 className="text-lg font-semibold text-gray-500 py-2 md:text-2xl dark:text-gray-300">
           Quality Assurance Technician
         </h3>
