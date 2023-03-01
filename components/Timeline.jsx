@@ -83,13 +83,13 @@ const Timeline = () => {
           at improving product quality throughout.</li>
         </ul>
       </li>
-      <li className="ml-4">
+      <li className="">
         <div className="absolute w-3 h-3 bg-pink-600 rounded-full mt-1.5 -left-1.5 border border-indigo-600 dark:border-white"></div>
-        <time className="mb-1 text-sm font-normal leading-none text-gray-500 md:text-lg md:mb-2 dark:text-gray-300">
+        <time className="mb-1 ml-4 text-sm font-normal leading-none text-gray-500 md:text-lg md:mb-2 dark:text-gray-300">
           Beginning of a new life!
         </time>
-        <h3 className='text-xl text-indigo-500 font-bold md:text-2xl dark:text-pink-500'>My journey in Canada</h3>
-        <p className="text-lg text-gray-500 py-2 dark:text-gray-300">
+        <h3 className='ml-4 text-xl text-indigo-500 font-bold md:text-2xl dark:text-pink-500'>My journey in Canada</h3>
+        <p className="ml-4 text-lg text-gray-500 py-2 dark:text-gray-300">
         In the winter of 2020, I came to Canada as a student with the determination and passion to achieve great things. After a lot of hard work and many sleepless nights, I finally achieved my college degree! I am thankful to my parents who have always supported me, believed in me. I was fortunate to have wonderful Mentors and Seniors. Canada is a wonderful country where I was able to follow my heart. I{`'`}m thrilled that my professional background allows me to contribute to the development of this country, and I{`'`}m proud of how far I{`'`}ve come personally in the previous few years. 
         <span className='text-indigo-600 dark:text-pink-500'> Here you go, A small glace to my wonderful journey...</span>
         </p>
