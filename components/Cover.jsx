@@ -14,13 +14,13 @@ const Cover = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   
   const [text, setText] = useState('');
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
+  const [delta, setDelta] = useState(300 - Math.random() * 200);
   const period =1200;
 
 
 
   useEffect(() => {
-      const toRotate = ['Quality Assurance Technician', 'Social Media Influencer', 'Digit Content Creator'];
+      const toRotate = ['Quality Assurance Technician', 'Social Media Influencer', 'Digital Content Creator'];
       const tick = () => {
           let i = loopNum % toRotate.length;
           let fullText = toRotate[i];
