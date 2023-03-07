@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
-import Carousel from './Carousal'
-import {AiOutlineArrowDown} from 'react-icons/ai'
 import Gallery from './Gallery';
+import SwiperImg from './Swiper';
 
 const Timeline = () => {
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
@@ -22,19 +21,10 @@ const Timeline = () => {
           Quality Assurance Technician
         </h3>
             <ul className='mb-4 text-base font-normal text-gray-500 list-disc list-inside md:text-lg max-w-7xl dark:text-gray-300'>
-                <li>Participate actively in plant sanitation and perform
-          pre-operational inspections on production lines.</li>
-                <li>Perform online product analysis, inspection and observation
-          for any deviation to the standard product specifications and
-          formulations. Line inspection includes but not limited to
-          weight checks of products, temperature checks, metal detector
-          checks, code checks, verifying line paperwork in a systematic
-          fashion.</li>
-                <li>Perform incoming raw materials testing and finished product
-          testing. Testing knowledge includes pH, titration, micro
-          sampling, viscosity, temperature measurements, etc.</li>
-                <li>Lead improvement efforts directed at improving product
-          quality throughout.</li>
+                <li>Analysis and interpretation of microbiological testing and follow-up actions relating to food safety.</li>
+                <li>Monitor and recognize food safety issues and follow through Hold and Release program as it applies to raw materials and/or finished products. </li>
+                <li>Perform food safety assessments as required.</li>
+                <li>Continuous learning of Food Safety Systems in place</li>
             </ul>
       </li>
       <li className="mb-10 ml-4">
@@ -67,20 +57,11 @@ const Timeline = () => {
           Quality Assurance Technician
         </h3>
         <ul className='mb-4 text-base font-normal text-gray-500 list-disc list-inside md:text-lg max-w-7xl dark:text-gray-300'>
-            <li>Participate actively in plant sanitation and perform
-          pre-operational inspections on production lines.</li>
-            <li>Perform online product analysis, inspection and observation
-          for any deviation to the standard product specifications and
-          formulations. Line inspection includes but not limited to
-          weight checks of products, temperature checks, metal detector
-          checks, code checks, verifying line paperwork in a systematic
-          fashion.</li>
-            <li>Perform incoming raw materials testing and
-          finished product testing. Testing knowledge includes pH,
-          titration, micro sampling, viscosity, temperature
-          measurements, etc.</li>
-            <li>Lead improvement efforts directed
-          at improving product quality throughout.</li>
+            <li>Participate in internal auditing and investigation process for corrective and preventative actions.</li>
+            <li>Communicate with other departmental supervisors in a cooperative manner to meet food safety and quality compliance.</li>
+            <li>Responsible for monitoring and verification of HACCP and prerequisite programs.</li>
+            <li>Perform chemical and microbiological testing when required.</li>
+            <li>Responsible for monitoring and verification of HACCP and prerequisite programs.</li>
         </ul>
       </li>
       <li className="">
@@ -93,8 +74,8 @@ const Timeline = () => {
         In the winter of 2020, I came to Canada as a student with the determination and passion to achieve great things. After a lot of hard work and many sleepless nights, I finally achieved my college degree! I am thankful to my parents who have always supported me, believed in me. I was fortunate to have wonderful Mentors and Seniors. Canada is a wonderful country where I was able to follow my heart. I{`'`}m thrilled that my professional background allows me to contribute to the development of this country, and I{`'`}m proud of how far I{`'`}ve come personally in the previous few years. 
         <span className='text-indigo-600 dark:text-pink-500'> Here you go, A small glace to my wonderful journey...</span>
         </p>
-        <ul className='mb-4 text-base font-normal text-gray-500 list-disc list-inside md:text-lg max-w-7xl dark:text-gray-300'>
-              <Carousel />
+        <ul className='mb-4 ml-2 text-base font-normal text-gray-500 list-disc list-inside md:text-lg max-w-7xl dark:text-gray-300'>
+              <SwiperImg />
               <button onClick={() => setIsGalleryOpen(!isGalleryOpen)} className="flex bg-transparent hover:bg-indigo-500 text-indigo-700 hover:text-white py-1 px-2 border border-indigo-500 hover:border-transparent rounded mx-auto dark:hover:bg-pink-500 dark:text-pink-500 dark:border-pink-500 dark:hover:text-white">
                 {isGalleryOpen ? "Show Less" : 'Show More'}
               </button>

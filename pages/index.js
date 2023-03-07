@@ -1,14 +1,11 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
 import Navbar from "@/components/Navbar";
 import Cover from "@/components/Cover";
 import Timeline from "@/components/Timeline";
-import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import { useState } from "react";
-import Carousel from "@/components/Carousal";
 
 const inter = Inter({ subsets: ["latin"] });
 

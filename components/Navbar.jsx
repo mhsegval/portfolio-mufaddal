@@ -1,11 +1,14 @@
 import React from 'react'
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import Image from 'next/image';
+import logo from '../public/logo.png'
 
 
 const Navbar = ({darkMode, setDarkMode}) => {
   return (
     <nav className="py-10 mb-12 flex justify-between">
-    <h1 className="text-xl font-burtons dark:text-white">Mufaddal Materwala</h1>
+    <a href="#" className='flex items-center'><Image src={logo} alt='logo' className='h-10 w-20'></Image></a>
+    {/* <h1 className="text-xl font-burtons dark:text-white">Mufaddal Materwala</h1> */}
     <ul className="flex items-center">
       <li>
         <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-xl dark:text-white" />
